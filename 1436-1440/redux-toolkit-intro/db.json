@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "first post",
+      "body": "my first post"
+    },
+    {
+      "id": 2,
+      "title": "second post",
+      "body": "my second post"
+    },
+    {
+      "title": "!my updated new post",
+      "body": "!my updated new post body",
+      "id": 3
+    },
+    {
+      "title": "my new post @3",
+      "body": "ny new post body 43",
+      "id": 4
+    },
+    {
+      "title": "my new post!",
+      "body": "ny new post body!",
+      "id": 5
+    }
+  ]
+}

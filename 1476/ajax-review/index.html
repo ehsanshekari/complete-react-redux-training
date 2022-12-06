@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+      integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <script>
+      // API CALL ----> ASYNCHRONOUS
+
+      // 1. XMLHttpRequest
+      //  var request = new XMLHttpRequest();
+      //  function stateChange(){
+      //    if(request.readyState === 4){
+      //      if(request.status === 200){
+      //        console.log('Success', JSON.parse(request.responseText));
+      //      }
+      //      else{
+      //        console.log('Error', request.responseText);
+      //      }
+      //    }
+      //  }
+      //  request.open('GET', 'https://api.quotable.io/quotes?tags=happiness', true);
+      //  request.onreadystatechange = stateChange;
+      //  request.send(null);
+
+      // 2. JQuery
+      // console.log('BEFORE API CALL');
+      // $.get(
+      //   "https://api.quotable.io/quotes?tags=happiness",
+      //   function (data, status) { // callback function
+      //     console.log(data, status);
+      //   }
+      // );
+      // console.log('AFTER API CALL');
+      // for(let i = 0; i < 1000 ; i++){
+      //   console.log(i);
+      // }
+
+      // 3. fetch
+      // Promise
+      // fetch("https://fakestoreapi.com/products/1")
+      //   .then((response) => response.json())
+      //   .then((data) => console.log(data))
+
+      // 4. axios
+      //  console.log('BEFORE API CALL');
+      //  axios.get("https://fakestoreapi.com/products/1")
+      //  .then((dataFromRequest) => {
+      //    console.log(dataFromRequest);
+      //   })
+      //  .catch((errorFromRequest) => {
+      //    console.log(errorFromRequest)
+      //   });
+      //   console.log('AFTER API CALL');
+
+      // axios
+      //   .get("https://api.quotable.io/quotes?tags=happiness")
+      //   .then((data) => console.log(data))
+      //   .catch((error) => console.log(error));
+
+      // 5. axios with async/await
+      // const asyncFunction = async () => {
+      //   try {
+      //     const result = await axios.get(
+      //       'https://api.quotable.io/quotes?tags=happiness'
+      //     );
+      //     const quotes = result.data.results;
+      //     quotes.forEach((el) => {
+      //       createAQuote(el);
+      //     });
+      //   } catch (e) {
+      //     console.log('error:', e);
+      //   }
+      // };
+
+      // asyncFunction();
+
+      // const apiCall = async () => {
+      //   try {
+      //     const response = await axios.get(
+      //       'https://fakestoreapi.com/products/1'
+      //     );
+      //     console.log(response.data);
+      //   } catch (error) {
+      //     console.log('error', error);
+      //   }
+      // };
+
+      // apiCall();
+
+      // const createAQuote = (quoteObject) => {
+      //   let divElement = document.createElement("div");
+      //   let newText = document.createTextNode(
+      //     `${quoteObject.author} : ${quoteObject.content}`
+      //   );
+      //   divElement.appendChild(newText);
+      //   document.body.appendChild(divElement);
+      // };
+    </script>
+  </body>
+</html>

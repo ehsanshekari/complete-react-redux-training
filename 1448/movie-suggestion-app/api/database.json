@@ -1,0 +1,34 @@
+{
+  "movies": [
+    {
+      "name": "star wars",
+      "description": "a science fiction movie",
+      "creator": "techie@email.com",
+      "id": 2
+    },
+    {
+      "name": "Jumanji",
+      "description": "A very great movie",
+      "creator": "techie@email.com",
+      "id": 3
+    },
+    {
+      "name": "face off",
+      "description": "An action movie",
+      "creator": "techie@email.com",
+      "id": 4
+    },
+    {
+      "name": "Dororo",
+      "description": "A very sad animation",
+      "creator": "bruno@email.com",
+      "id": 6
+    },
+    {
+      "name": "Top Gun",
+      "description": "A new entry in the series",
+      "creator": "bruno@email.com",
+      "id": 7
+    }
+  ]
+}

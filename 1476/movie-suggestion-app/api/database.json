@@ -1,0 +1,40 @@
+{
+  "movies": [
+    {
+      "name": "star wars",
+      "description": "a science fiction movie",
+      "creator": "techie@email.com",
+      "id": 2
+    },
+    {
+      "name": "Jumanji",
+      "description": "A very great movie",
+      "creator": "techie@email.com",
+      "id": 3
+    },
+    {
+      "name": "face off",
+      "description": "An action movie",
+      "creator": "techie@email.com",
+      "id": 4
+    },
+    {
+      "name": "Dororo",
+      "description": "Very sad animation ",
+      "creator": "bruno@email.com",
+      "id": 8
+    },
+    {
+      "name": "avatar",
+      "description": "the most selling movie of all time",
+      "creator": "bruno@email.com",
+      "id": 9
+    },
+    {
+      "name": "black panter 2",
+      "description": "an action movie",
+      "creator": "nilson@email.com",
+      "id": 10
+    }
+  ]
+}
